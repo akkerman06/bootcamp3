@@ -1,0 +1,67 @@
+.flex-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-beetwen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aligh-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.aligh-flex-start {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.max-w810 {
+  max-width: 810px;
+}
+
+.float-right {
+  float: right;
+}
+
+.margin-top-bot-28 {
+  margin: 28px 0;
+}
+
+.pad-bot-40 {
+  padding-bottom: 40px;
+}
+
+.flex-just-center {
+  display: flex;
+  justify-content: center;
+}
+
+.aligh-content-start {
+  align-content: flex-start;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.text-center {
+  text-align: center;
+}/*# sourceMappingURL=flex.css.map */

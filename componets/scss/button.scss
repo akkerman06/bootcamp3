@@ -1,0 +1,49 @@
+.bth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    &-transparent{
+        border: none;
+        background-color: transparent;
+    }
+    &-primary{
+        border-radius: 4px;
+        background: var(--primary, #17696A);
+        padding: 0px 40px;
+        border-radius: 4px;
+        background: var(--primary, #17696A);
+        
+        &-100{
+            width: 100%;
+        }
+    }
+    &-add-to-cart{
+        width: 358px;
+        height: 44px;
+        padding: 0px 32px;
+        border-radius: 4px;
+        background: var(--primary, #17696A);
+    }
+    &-like{
+        fill: var(--white, #FFF);
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
+
+
+}
+// .bth-transparent{
+//     border: none;
+//     background-color: transparent;
+//     color: var(--white, #FFF);
+// }
+// .bht-primary{
+//     border-radius: 4px;
+//     background: var(--primary, #17696A);
+//     padding: 0px 40px;
+//     border-radius: 4px;
+//     background: var(--primary, #17696A);
+// }

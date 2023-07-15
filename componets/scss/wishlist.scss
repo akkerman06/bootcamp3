@@ -1,0 +1,30 @@
+.wishlist{
+}
+
+.products__info{
+    padding-left: 16px;
+}
+.svg-like{
+}
+.products__img{
+    background-image: url(../../assets/img/product-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 390px;
+
+}
+.bth-like{
+    float: right;
+    margin-top: 102%;
+    margin-right: 3%;
+}
+.product__hover-info{
+    display: none;
+    
+
+}
+.products__info-text:hover + .product__hover-info {
+    display: block;
+}
+

@@ -1,0 +1,22 @@
+.account-menu {
+  width: 285px;
+  border-radius: 4px;
+  border: 1px solid var(--gray-300, #E5E8ED);
+  background: var(--white, #FFF);
+  /* shadow/small */
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.account-menu__list-item {
+  padding: 15px 0 15px 20px;
+  border-top: 1px solid #E5E8ED;
+}
+
+.account-menu__data {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.account-menu__wrap {
+  padding-top: 20px;
+}/*# sourceMappingURL=account-menu.css.map */

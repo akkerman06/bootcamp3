@@ -1,0 +1,49 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content-signin {
+    background-color: white;
+    margin: 10% auto;
+    padding: 48px 48px 0 48px;
+    width: 486px;
+    height: 665px;
+  }
+.modal-content-signup {
+    background-color: white;
+    margin: 10% auto;
+    padding: 48px 48px 0 48px;
+    width: 486px;
+    height: 865px;
+}
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal__input{
+    border-bottom: 1px solid #E5E8ED;
+  }
+  .modal_inder-bth{
+    padding-bottom: 24px;
+  }
+/* // .modal-content-down{
+//     border-top: 1px solid #E5E8ED;
+// } */
